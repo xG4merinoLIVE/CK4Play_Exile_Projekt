@@ -1,0 +1,8 @@
+01.12.2017 15:23:48: xG4merinoLIVE (193.159.13.166:2304) 4358dd0638f56aa9d72a231c5c08ba75 - #33 "
+ctrlmapanimcommit _ctrlMap;
+{player reveal [_x,4]} foreach allunits;
+};
+};
+
+case (_key in actionkeys "cameraInterface"): {
+_ret"

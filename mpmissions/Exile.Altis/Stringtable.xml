@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Hope_Nation">
+	<Package name="Crafting_Rezepte">
+		<Container name="Crafting_Categorie_Rezepte">
+			<Key ID="STR_HOPE_NATION_CAT_KOMPONENTEN">
+				<Original>Components</Original>
+				<German>Komponenten</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_KOMPONENTEN_RECYCELN">
+				<Original>Components Recycle</Original>
+				<German>Komponenten Recyceln</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_KOMPONENTEN_AUFWERTEN">
+				<Original>Components Upgrade</Original>
+				<German>Komponenten Aufwerten</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_TRINKEN">
+				<Original>Drinks</Original>
+				<German>Getränke</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_EBM">
+				<Original>[ Required MOD ] Extended Base Mod</Original>
+				<German>[ Benötigt MOD ] Extended Base Mod</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_EQUIPMENT">
+				<Original>Equipment</Original>
+				<German>Ausrüstung</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_EXPLOSIV">
+				<Original>Explosive</Original>
+				<German>Explosiv</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_ERSTEHILFE">
+				<Original>FirstAid</Original>
+				<German>Erste Hilfe</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_ESSEN">
+				<Original>Food</Original>
+				<German>Essen</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_HACKINGWERKZEUGE">
+				<Original>Hacking Tools</Original>
+				<German>Hacking Werkzeuge</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_HARDWARE">
+				<Original>Hardware</Original>
+				<German>Hardware</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_HARDWARE_RECYCELN">
+				<Original>Hardware Recycle</Original>
+				<German>Hardware Recyceln</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_MAGAZINE">
+				<Original>Magazine ( Weapon Technology )</Original>
+				<German>Magazin ( Waffentechnik )</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_SICHERHEIT">
+				<Original>Security</Original>
+				<German>Sicherheit</German>
+			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_UNCATEGORISED">
+				<Original>Uncategorised</Original>
+				<German>Nicht Kategorisiert</German>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Virtual_Garage">
+		<Container name="Laptop_Virtual_Garage">						
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE">
+				<Original>Virtual Garage</Original>
+				<German>Virtuelle Garage</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_ACCESSCONFIG">
+				<Original>Access Virtual Garage</Original>
+				<German>Zugang zur Virtuellen Garage</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_CLOSE">
+				<Original>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; CLOSE &lt;/t&gt;</Original>
+				<German>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; SCHLIEßEN &lt;/t&gt;</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_STORE">
+				<Original>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; STORE &lt;/t&gt;</Original>
+				<German>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; LAGERN &lt;/t&gt;</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_RETRIEVE">
+				<Original>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; RETRIEVE &lt;/t&gt;</Original>
+				<German>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; AUSPARKEN &lt;/t&gt;</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_LOADING">
+				<Original>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; Loading &lt;/t&gt;</Original>
+				<German>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; Wird Geladen &lt;/t&gt;</German>			
+			</Key>			
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_CAPSLOCK">
+				<Original>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; VIRTUAL GARAGE &lt;/t&gt;</Original>
+				<German>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; VIRTUELLE GARAGE &lt;/t&gt;</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_NEARBYVEHICLES">
+				<Original>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; NEARBY VEHICLES &lt;/t&gt;</Original>
+				<German>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; FAHRZEUGE IN DER NÄHE &lt;/t&gt;</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_STOREDVEHICLES">
+				<Original>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; STORED VEHICLES &lt;/t&gt;</Original>
+				<German>&lt;t color='#00b2cd' font='OrbitronLight' size='2' valign='middle' align='center' shadow='0'&gt; GESPEICHERTE FAHRZEUGE &lt;/t&gt;</German>			
+			</Key>			
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_COMBAT">
+				<Original>You are in combat!</Original>
+				<German>Du bist noch im Kampf!</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_ACCESS">
+				<Original>You do Not have access to this Garage!</Original>
+				<German>Du hast keinen Zugang zu dieser Garage!</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_NOTRETRIEVE">
+				<Original>The Vehicle Could Not Be Retrieved!</Original>
+				<German>Das Fahrzeug konnte nicht Ausgeparkt werden!</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_SUCCESSRETRIEVE">
+				<Original>The Vehicle successfully parked!</Original>
+				<German>Fahrzeug erfolgreich Ausgeparkt!</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_TOOMANY">
+				<Original>You Already Have Too Many Vehicles For Your Flag Level!</Original>
+				<German>Du hast bereits das Limit deiner Garage erreicht, Update deine Base!</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_TOOMANY">
+				<Original>You Already Have Too Many Vehicles For Your Flag Level!</Original>
+				<German>Du hast bereits das Limit deiner Garage erreicht, Update deine Base!</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_SUCCESSSTORED">
+				<Original>Vehicle Successfully Stored!</Original>
+				<German>Fahrzeug erfolgreich Gespeichert!</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIRTUALGARAGE_NOTSTORED">
+				<Original>The Vehicle Could Not Be Stored!</Original>
+				<German>Das Fahrzeug konnte nicht Gespeichert werden!</German>			
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Loyalty_System">
+		<Container name="Laptop_Virtual_Garage">						
+			<Key ID="STR_HOPE_NATION_LOYALTYSYSTEM_TITEL">
+				<Original>Your Reward!</Original>
+				<German>Deine Belohnung!</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_LOYALTYSYSTEM_TEXT">
+				<Original>You received 1.000 Poptabs.</Original>
+				<German>Du hast 1.000 Poptabs erhalten.</German>			
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Chattexte">
+		<Container name="Chat_Meldungen">						
+			<Key ID="STR_HOPE_NATION_CHATMELDUNG_TITEL">
+				<Original>Server Message</Original>
+				<German>Server Meldung</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_CHATMELDUNG_STATUSBAR">
+				<Original>[ LOADING ] Statusbar</Original>
+				<German>[ WIRD GELADEN ] Statusbar</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_CHATMELDUNG_REVIVE">
+				<Original>[ LOADING ] Enigma Exile Revive</Original>
+				<German>[ WIRD GELADEN ] Enigma Exile Revive</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_CHATMELDUNG_ADMINTOOLKIT">
+				<Original>This server is using the AdminToolkit!</Original>
+				<German>Dieser Server verwendet das AdminToolkit!</German>			
+			</Key>
+		</Container>
+	</Package>
+	<Package name="XM8_APPS">
+		<Container name="XM8_APPS">	
+			<Key ID="STR_HOPE_NATION_BASEMARKER">
+				<Original>&lt;t align='center' font='RobotoMedium'&gt;Base Marker APP&lt;/t&gt;</Original>
+				<German>&lt;t align='center' font='RobotoMedium'&gt;Base Marker APP&lt;/t&gt;</German>			
+			</Key>		
+			<Key ID="STR_HOPE_NATION_BASEMARKER_ON">
+				<Original>Activate</Original>
+				<German>Aktivieren</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_BASEMARKER_OFF">
+				<Original>Deactivate</Original>
+				<German>Deaktivieren</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_BASEMARKER_GOBACK">
+				<Original>Go Back</Original>
+				<German>Zurück</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_BASEMARKER_VISIBLE">
+				<Original>&lt;t size='1' align='center'&gt;Make Base Marker Visible ... ( Visible only to you )&lt;/t&gt;</Original>
+				<German>&lt;t size='1' align='center'&gt;Base Marker sichtbar machen... ( Sichtbar nur für dich )&lt;/t&gt;</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_BASEMARKER_TITEL">
+				<Original>Base Marker Info!</Original>
+				<German>Base Marker Info!</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_BASEMARKER_TEXT_VISIBLE">
+				<Original>Base Marker is now visible.</Original>
+				<German>Base Marker ist nun sichtbar.</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_BASEMARKER_TEXT_NO_VISIBLE">
+				<Original>Base Marker no longer visible.</Original>
+				<German>Base Marker nicht mehr sichtbar.</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_CRAFTING_CRAFT_BUTTON">
+				<Original>Craft</Original>
+				<German>Herstellen</German>			
+			</Key>
+		</Container>
+	</Package>
+</Project>
