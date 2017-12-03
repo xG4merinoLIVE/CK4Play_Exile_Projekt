@@ -4,7 +4,7 @@
 Testserver der CK4Play Community von <b>xG4merinoLIVE</b>
 <br>
 # Links
-[ <a href="http://www.exilemod.com/topic/7690-admintoolkit-for-arma-3-v222-exile-edition/"><b>LINK</b></a> ] <b><i>AdminToolkit for Arma 3 - v2.2.2</i></b>
+[ <a target= "_blank" href="http://www.exilemod.com/topic/7690-admintoolkit-for-arma-3-v222-exile-edition/"><b>LINK</b></a> ] <b><i>AdminToolkit for Arma 3 - v2.2.2</i></b>
 <br>
 # SCREENSHOTS
 <center>
