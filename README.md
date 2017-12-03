@@ -3,3 +3,8 @@
 # Infos über der CK4Play
 Testserver der CK4Play Community von <b>xG4merinoLIVE</b>
 # SCREENSHOTS
+<center>
+
+<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_1.png" alt="Smiley face" height="42" width="42">
+
+</center>
