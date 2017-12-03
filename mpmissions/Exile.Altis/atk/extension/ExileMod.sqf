@@ -32,7 +32,7 @@ AdminToolkit_OnExecute = {
             ['exile_getheal', ""] call AdminToolkit_doAction;
         };
         default {
-            //systemChat format["Unknown action %1", AdminToolkit_Action];
+            systemChat format["Unknown action %1", AdminToolkit_Action];
          };
     };
 };

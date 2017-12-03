@@ -65,10 +65,13 @@ try
 		};
 		case 'message': {
 			_tmp = objectFromNetId (_params select 0);
-			['message', [_params select 1, format["<t size='1.5'>Sender: %1</t>", name _player]]] remoteExecCall ['AdminToolkit_network_receiveResponse', owner _tmp];
+			[owner _tmp, format["Sender: %1", name _player], _params select 1, "", 30] call AdminToolkit_showAAN;
 		};
 		case 'messageall': {
-			['message', [(_params select 0), format["<t size='1.5'>Sender: %1</t>", name _player]]] remoteExecCall ['AdminToolkit_network_receiveResponse', -2];
+			[-2, format["Sender: %1", name _player], _params select 0, "", 30] call AdminToolkit_showAAN;
+		};
+		case 'messageperm': {
+			[-2, format["Sender: %1", name _player], _params select 0, ""] call AdminToolkit_showAAN;
 		};
 		// Give ammo to selected player
 		case 'giveammo': {
@@ -130,29 +133,29 @@ try
 			};
         };
 		// Enable the god mode (client callback required)
-		// Example: [player, 'godmodeon', null]
+		// Example: [player, 'godmodeon', []]
 		case "godmodeon": {
-			//["godmode", true] remoteExecCall ['AdminToolkit_network_receiveResponse', owner _player];
 			{ player allowDamage false; } remoteExecCall ["call", owner _player];
+			AdminToolkit_GodPlayers pushBackUnique (netId _player);
 			diag_log format["[ADMINTOOLKIT] Godmode enabled for %1", name _player];
 		};
 		// Disable the god mode (client callback required)
-		// Example: [player, 'godmodeoff', null]
+		// Example: [player, 'godmodeoff', []]
 		case "godmodeoff": {
 			{ player allowDamage true; } remoteExecCall ["call", owner _player];
+			AdminToolkit_GodPlayers deleteAt (AdminToolkit_GodPlayers find (netId _player));
 			diag_log format["[ADMINTOOLKIT] Godmode disabled for %1", name _player];
-			//["godmode", false] remoteExecCall ['AdminToolkit_network_receiveResponse', owner _player];
 		};
 		//Vehicles
 		// spawn a vehicle with className defined in parameter 2 near the admin
-		// Example: [player, 'getvehicle', <string vehicleClass>]
+		// Example: [player, 'getvehicle', [<vehicleClass>]
         case "getvehicle": {
             //find save position for the vehicle
 			_tmp = [position _player, 1, 20, 5, 1, 0, 0] call BIS_fnc_findSafePos;
              _result = (_params select 0) createVehicle _tmp;
         };
 		// spawn a vehicle at the position of another player
-		// Example: [player, 'givevehicle', [<string vehicleClass>, <netId>]]
+		// Example: [player, 'givevehicle', [<vehicleClass>, <netId>]]
         case "givevehicle": {
             _tmp = objectFromNetId (_params select 1);
 			if(!(isNil "_tmp")) then {
@@ -175,7 +178,7 @@ try
         case "getweapon": {
             // add magazine first to make sure weapon is being loaded
             _tmp = _params select 1;
-            if (_tmp != "") then { _player addMagazines  [_tmp, 1]; };
+            if (_tmp != "") then { _player addMagazineGlobal _tmp; };
             // add the weapon
             _tmp = _params select 0;
             if (_tmp != "") then { _player addWeaponGlobal _tmp; };
@@ -188,13 +191,13 @@ try
 		};
 		// Items Others	
 		// add an item to admins inventory
-		// Example: [player, 'getitem', <string ItemClass>]
+		// Example: [player, 'getitem', [<ItemClass>]]
 		case "getitem": {
 			_tmp = _params select 0;
 			if (typeName _tmp == "STRING") then { _player addItem _tmp; };
 		};
 		// spawn an object at a position defined in parameter 2
-		// Example: [player, 'spawn', [<string className>, <array position>]]
+		// Example: [player, 'spawn', [<className>, <position>]]
 		case "spawn": {
 			_tmp = _params select 0;
 			_mod = _params select 1;
@@ -202,7 +205,7 @@ try
 		};
 		// Building
         // build a vehicle and callback the object netId to its client for further action
-        // Example: [player, 'build', <string className>]
+        // Example: [player, 'build', [<className>]]
 		case "buildpers";
         case "build": {
             _tmp = createVehicle [(_params select 0), [0,0,1000], [], 0, "CAN_COLLIDE"];
@@ -273,7 +276,7 @@ try
 					_extensions = getArray(missionConfigFile >> 'CfgAdminToolkitCustomMod' >> 'Extensions');
 					{
 						_tmp = _x select 1;
-						_mod = compileFinal preprocessFileLineNumbers format["admintoolkit_servercfg\extension\%1.sqf", _tmp];
+						_mod = compileFinal preprocessFileLineNumbers format["x\admintoolkit_servercfg\extension\%1.sqf", _tmp];
 						[_player, _request, _params] call _mod;
 					} forEach _extensions;
 				};

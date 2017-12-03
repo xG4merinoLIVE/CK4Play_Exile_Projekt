@@ -20,7 +20,7 @@ AdminToolkit_OnExecute = {
             ['vai_delete', AdminToolkit_Selection] call AdminToolkit_doAction;
         };
         default {
-            //systemChat format["Unknown action %1", AdminToolkit_Action];
+            systemChat format["Unknown action %1", AdminToolkit_Action];
          };
     };
 };

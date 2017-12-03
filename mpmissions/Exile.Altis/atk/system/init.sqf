@@ -22,6 +22,5 @@
     _control ctrlSetPosition [0,0, 1,1];
     _control ctrlCommit 0;
     missionNamespace setVariable ['RscAdminToolkitMessage_IDC', _controlIDC];
-    //["AdminToolkit", "This server is using the AdminToolkit"] call AdminToolkit_showMessage;
-	["InfoTitleAndText", [ localize "STR_HOPE_NATION_CHATMELDUNG_TITEL", localize "STR_HOPE_NATION_CHATMELDUNG_ADMINTOOLKIT"] ] call ExileClient_gui_toaster_addTemplateToast;
+    ["AdminToolkit", "This server is using the AdminToolkit"] call AdminToolkit_showMessage;
 };

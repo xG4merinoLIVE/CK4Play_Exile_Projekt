@@ -9,5 +9,5 @@ try
 }
 catch
 {
-    //systemChat format["[ATK-RESPONSE]: EXCEPTION: %1", _exception];
+    systemChat format["[ATK-RESPONSE]: EXCEPTION: %1", _exception];
 };
