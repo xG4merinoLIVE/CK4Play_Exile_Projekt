@@ -8,11 +8,11 @@ Test
 <br>
 # SCREENSHOTS
 <center>
-<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_1.png"><br><br>
-<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_2.png"><br><br>
-<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_2_Statusbar.png"><br><br>
-<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_3.png"><br><br>
-<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_4.png"><br><br>
-<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_5.png"><br><br>
+<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_1.png"><br>
+<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_2.png"><br>
+<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_2_Statusbar.png"><br>
+<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_3.png"><br>
+<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_4.png"><br>
+<img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_5.png"><br>
 <img src="https://github.com/xG4merinoLIVE/CK4Play_Exile_Projekt/blob/master/Screenshots/Neu_Kleine/Screen_6.png">
 </center>
