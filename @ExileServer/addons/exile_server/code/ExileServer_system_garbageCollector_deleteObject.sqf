@@ -15,8 +15,8 @@ if (_object getVariable ["ExileIsSimulationMonitored", false]) then
 {
 	_object call ExileServer_system_simulationMonitor_removeVehicle;
 };
-_object removeAllEventHandlers "MPKilled";
-_object removeAllEventHandlers "Damaged";
+_object removeAllMPEventHandlers "MPKilled";
+_object removeAllEventHandlers "Dammaged";
 _object removeAllEventHandlers "GetIn";
 _object removeAllEventHandlers "GetOut";
 removeAllActions _object;
