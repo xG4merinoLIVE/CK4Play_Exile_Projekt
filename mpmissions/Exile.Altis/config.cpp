@@ -584,6 +584,7 @@ class CfgExileArsenal
 	// Hardware
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Item_Rope							{ quality = 1; price = 20; };
+	class Exile_Item_Knife							{ quality = 2; price = 250; };
 	class Exile_Item_DuctTape						{ quality = 1; price = 300; };
 	class Exile_Item_ExtensionCord					{ quality = 1; price = 40; };
 	class Exile_Item_FuelCanisterEmpty				{ quality = 1; price = 40; };
@@ -698,12 +699,12 @@ class CfgExileArsenal
 	class Exile_Item_Pliers							{ quality = 2; price = 350; };
 	class Exile_Item_Grinder						{ quality = 2; price = 1250; };
 	class Exile_Item_Foolbox						{ quality = 2; price = 4000; };
-	//class Exile_Item_CordlessScrewdriver			{ quality = 1; price = 750; };
+	class Exile_Item_CordlessScrewdriver			{ quality = 3; price = 750; };	
+	class Exile_Item_Shovel							{ quality = 2; price = 700; };
 	//class Exile_Item_FireExtinguisher				{ quality = 1; price = 650; };
 	//class Exile_Item_Hammer						{ quality = 1; price = 600; };
 	//class Exile_Item_OilCanister					{ quality = 1; price = 1750; };
 	//class Exile_Item_Screwdriver					{ quality = 1; price = 250; };
-	//class Exile_Item_Shovel						{ quality = 1; price = 700; };
 	//class Exile_Item_Wrench						{ quality = 1; price = 250; };
 	//class Exile_Item_SleepingMat					{ quality = 1; price = 1250; };
 	//class Exile_Item_ToiletPaper					{ quality = 1; price = 5; };
@@ -2356,12 +2357,15 @@ class CfgInteractionMenus
 		
 		class Actions 
 		{
+			/*
 			class ScanLock: ExileAbstractAction
 			{
 				title = "Scan Lock";
 				condition = "('Exile_Item_ThermalScannerPro' in (magazines player)) && !((ExileClientInteractionObject getvariable ['ExileIsLocked',1]) isEqualTo 1) && !ExilePlayerInSafezone";
 				action = "_this call ExileClient_object_lock_scan";
 			};
+			*/
+			
 			// Locks a vehicle
 			class Lock : ExileAbstractAction
 			{
@@ -2399,12 +2403,15 @@ class CfgInteractionMenus
 		
 		class Actions 
 		{
+			/*
 			class ScanLock: ExileAbstractAction
 			{
 				title = "Scan Lock";
 				condition = "('Exile_Item_ThermalScannerPro' in (magazines player)) && !((ExileClientInteractionObject getvariable ['ExileIsLocked',1]) isEqualTo 1) && !ExilePlayerInSafezone";
 				action = "_this call ExileClient_object_lock_scan";
 			};
+			*/
+			
 			// Locks a vehicle
 			class Lock : ExileAbstractAction
 			{
@@ -2442,12 +2449,15 @@ class CfgInteractionMenus
 
 		class Actions 
 		{
+			/*
 			class ScanLock: ExileAbstractAction
 			{
 				title = "Scan Lock";
 				condition = "('Exile_Item_ThermalScannerPro' in (magazines player)) && !((ExileClientInteractionObject getvariable ['ExileIsLocked',1]) isEqualTo 1) && !ExilePlayerInSafezone";
 				action = "_this call ExileClient_object_lock_scan";
 			};
+			*/
+			
 			// Locks a vehicle
 			class Lock : ExileAbstractAction
 			{
@@ -2485,12 +2495,15 @@ class CfgInteractionMenus
 
 		class Actions 
 		{
+			/*
 			class ScanLock: ExileAbstractAction
 			{
 				title = "Scan Lock";
 				condition = "('Exile_Item_ThermalScannerPro' in (magazines player)) && !((ExileClientInteractionObject getvariable ['ExileIsLocked',1]) isEqualTo 1) && !ExilePlayerInSafezone";
 				action = "_this call ExileClient_object_lock_scan";
 			};
+			*/
+			
 			// Locks a vehicle
 			class Lock : ExileAbstractAction
 			{
@@ -2528,12 +2541,15 @@ class CfgInteractionMenus
 
 		class Actions 
 		{
+			/*
 			class ScanLock: ExileAbstractAction
 			{
 				title = "Scan Lock";
 				condition = "('Exile_Item_ThermalScannerPro' in (magazines player)) && !((ExileClientInteractionObject getvariable ['ExileIsLocked',1]) isEqualTo 1) && !ExilePlayerInSafezone";
 				action = "_this call ExileClient_object_lock_scan";
 			};
+			*/
+			
 			// Locks a vehicle
 			class Lock : ExileAbstractAction
 			{
@@ -4081,6 +4097,7 @@ class CfgTraderCategories
 			"Exile_Item_SafeKit",
 			"Exile_Item_CamoTentKit",
 			"Exile_Item_CodeLock",
+			"Exile_Item_CordlessScrewdriver",
 			"Exile_Item_MetalScrews"
 
 			/*
@@ -4230,8 +4247,8 @@ class CfgTraderCategories
 			"Exile_Item_Hammer",
 			"Exile_Item_OilCanister",
 			"Exile_Item_Screwdriver",
-			"Exile_Item_Shovel",
 			"Exile_Item_Wrench",
+			"Exile_Item_Knife",
 			"Exile_Item_SleepingMat",
 			"Exile_Item_ToiletPaper",
 			"Exile_Item_ZipTie",

@@ -3800,7 +3800,9 @@ class CfgSettings
 			"ItemMap", // Because why not
 			"Exile_Item_XM8",
 			"ItemRadio",
-			"Exile_Item_PlasticBottleFreshWater"
+			"Exile_Item_PlasticBottleFreshWater",
+			"Exile_Item_EMRE",
+			"Exile_Item_Bandage"
 		};
 
 		/**
@@ -3827,7 +3829,7 @@ class CfgSettings
 		/**
 		 * Parachute drop height in meters. 
 		 */
-		parachuteDropHeight = 1000;
+		parachuteDropHeight = 500;
 
 		/**
 		 * Number of minutes where a fresh spawned player remains in the
