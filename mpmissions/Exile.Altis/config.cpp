@@ -1835,6 +1835,8 @@ class CfgExileCustomCode
 	ExileClient_gui_traderDialog_updateInventoryDropdown	= "custom\CfgExileCustomCode\ExileClient_gui_traderDialog_updateInventoryDropdown.sqf";		//	SELL Crafte at Wastle-Dump
 	ExileClient_gui_wasteDumpDialog_show 					= "custom\CfgExileCustomCode\ExileClient_gui_wasteDumpDialog_show.sqf";						//	SELL Crafte at Wastle-Dump
 	ExileServer_system_trading_network_wasteDumpRequest 	= "custom\CfgExileCustomCode\ExileServer_system_trading_network_wasteDumpRequest.sqf";		//	SELL Crafte at Wastle-Dump
+	//Enigma Deploybike
+	ExileClient_gui_inventory_event_onSlotDoubleClick = "Custom\EnigmaPersonalVehicle\ExileClient_gui_inventory_event_onSlotDoubleClick.sqf"; 
 };
 
 
@@ -4219,6 +4221,7 @@ class CfgTraderCategories
 			"Exile_Item_Handsaw",
 			"Exile_Item_Pliers",
 			"Exile_Item_Grinder",
+			"Exile_Item_Shovel",
 			"Exile_Item_Foolbox",
 
 			/*
@@ -4768,7 +4771,7 @@ class CfgTraderCategories
 			"Fox_LandCruiser3",
 			"Fox_Pickup_Tow",
 			"Fox_Pickup_Apocalypse",
-			"Exile_Car_Kart_Black",
+			//"Exile_Car_Kart_Black",
 			"Exile_Bike_QuadBike_Black",
 			"Exile_Car_OldTractor_Red",
 			"Exile_Car_TowTractor_White",

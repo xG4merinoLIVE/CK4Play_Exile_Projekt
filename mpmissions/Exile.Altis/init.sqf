@@ -9,6 +9,7 @@
 [] execVM "custom\VirtualGarage\VirtualGarage_Client_Init.sqf";											//		VirtualGarage
 [] execVM "custom\LoyaltySystem\RewardLoyalty.sqf";														//		Gehalt
 //[] execVM "custom\Jump_Script\jumping.sqf";															//		Sprungscript
+[] execVM "Custom\EnigmaPersonalVehicle\init.sqf";														//		Deploy Bike
 
 if hasInterface then
 {

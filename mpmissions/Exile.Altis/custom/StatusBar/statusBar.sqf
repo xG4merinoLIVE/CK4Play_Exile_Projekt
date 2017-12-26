@@ -158,7 +158,7 @@ disableSerialization;
 				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Bargeld.paa' color='%10'/> %4</t>
 				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Locker.paa' color='%10'/> %5</t>
 				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Position.paa' color='%10'/> %12</t>
-				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Mikrofon.paa' color='%10'/> TEAMSPEAKIP</t>
+				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Mikrofon.paa' color='%10'/> CK4PLAY.DE</t>
 				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Server_Neustart.paa' color='%10'/> %13h:%14m</t>
 				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Meine_FPS.paa' color='%10'/> FPS: %8</t>",
 

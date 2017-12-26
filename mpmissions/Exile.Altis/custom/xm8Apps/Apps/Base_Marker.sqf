@@ -86,7 +86,7 @@ fnc_markerOn = {
 		forEach (allMissionObjects "Exile_Construction_Flag_Static");
 		(findDisplay 24015) closeDisplay 0;
 		//["Success",["Base Marker ist nun sichtbar."]] call ExileClient_gui_notification_event_addNotification;					//ALTE NOTIFICATION
-		["SuccessTitleAndText", [ localize "STR_HOPE_NATION_BASEMARKER_TITEL", localize "STR_HOPE_NATION_BASEMARKER_TEXT_VISIBLE"]] call ExileClient_gui_toaster_addTemplateToast;
+		["SuccessTitleAndText", [ localize "STR_HOPE_NATION_BASEMARKER_TITEL", localize "STR_HOPE_NATION_BASEMARKER_TEXT"]] call ExileClient_gui_toaster_addTemplateToast;
 };
 
 fnc_markerOff = {
