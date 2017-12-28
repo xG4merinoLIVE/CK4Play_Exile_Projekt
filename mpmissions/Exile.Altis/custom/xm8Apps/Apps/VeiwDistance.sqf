@@ -24,7 +24,7 @@ _display = uiNameSpace getVariable ["RscExileXM8", displayNull];
 _curViewDist = viewDistance;
 _curObjViewDist = getObjectViewDistance select 0;
 
-_xm8Controlls = [991,881,992,882,993,883,994,884,995,885,996,886,997,887,998,888,999,889,9910,8810,9911,8811,9912,8812];
+_xm8Controlls = [991,881,992,882,993,883,994,884,995,885,996,886,997,887,998,888,999,889,9910,8810,9911,8811,9912,8812,9913,8813,9914,8814,9915,8815];
 {
     _fade = _display displayCtrl _x;
     _fade ctrlSetFade 1;

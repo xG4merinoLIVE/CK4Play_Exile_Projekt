@@ -37,7 +37,7 @@ app3_action = { execVM "custom\xm8Apps\Apps\BRAmaRecipes.sqf"; };
 
 //App 4
 _app4Text = "View Distance";
-_app4Logo = "custom\xm8Apps\images\View_Distance_APP";
+_app4Logo = "custom\xm8Apps\images\View_Distance_APP.paa";
 app4_action = { execVM "custom\xm8Apps\apps\VeiwDistance.sqf"; };
 
 //App 5
