@@ -77,7 +77,7 @@ disableSerialization;
 			_colour10 		= parseText "#CC3B61"; //
 			_colour0 		= parseText "#C72650"; //
 			_colourDead 	= parseText "#000000";
-
+/*
 			//Colour coding
 			//Damage
 			_colourDamage = _colourDefault;
@@ -146,8 +146,8 @@ disableSerialization;
 				case((_bodytemp >= 1) && (_bodytemp < 10)) :  {_colourCold =  _colour0;};
 				case(_bodytemp < 1) : {_colourCold =  _colourDead;};
 			};
-			
-			
+		*/	
+		
 			//display the information
 			((uiNamespace getVariable "RscStatusBar")displayCtrl 55554) ctrlSetStructuredText
 			parseText
