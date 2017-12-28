@@ -1,3 +1,0 @@
-//new
-1 "" !="true" !="false" !="[0-9]{1,2}" !="[0-9]*" !="[0-9].[0-9]*e\+[0-9]*" !="[0.0-9.9]*" !="[0-9]*e\+[0.0-9.9]*" !="antidupe" !="antidupe\" !"antidupe" !="enigmarevivepermitted" !="bleedoutcountdownend" !="sa_tow_ropes_vehicle" !="sa_tow_ropes"!="SA_Cargo" !="SA_Tow_Ropes" !="SA_Tow_Ropes_Vehicle" !="SA_Tow_Ropes_Pick_Up_Helper" !="SA_TOWING_VEHICLE" !="SA_TOWING_CARGO"
-1 "" !="sa_tow_ropes_vehicle" !="sa_tow_ropes"!="SA_Cargo" !="SA_Tow_Ropes" !="SA_Tow_Ropes_Vehicle" !="SA_Tow_Ropes_Pick_Up_Helper" !="SA_TOWING_VEHICLE" !="SA_TOWING_CARGO"
