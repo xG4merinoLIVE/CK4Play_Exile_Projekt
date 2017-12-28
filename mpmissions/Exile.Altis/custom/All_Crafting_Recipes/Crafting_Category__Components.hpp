@@ -157,7 +157,7 @@ class CraftWaterBarrel: Exile_AbstractCraftingRecipe
 	components[] = 
 	{
 		{20, "Exile_Item_PlasticBottleEmpty"}, 
-		{2, "Exile_Item_FuelBarrelEmpty"}		
+		{2, "Exile_Item_FuelCanisterEmpty"}		
 	};	
 	category = "$STR_HOPE_NATION_CAT_KOMPONENTEN";	
 };
