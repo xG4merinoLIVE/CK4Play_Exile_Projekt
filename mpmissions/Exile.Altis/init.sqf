@@ -10,6 +10,7 @@
 [] execVM "custom\LoyaltySystem\RewardLoyalty.sqf";														//		Gehalt
 //[] execVM "custom\Jump_Script\jumping.sqf";															//		Sprungscript
 [] execVM "Custom\EnigmaPersonalVehicle\init.sqf";														//		Deploy Bike
+[] execVM "Custom\AVS\AVS_fnc_init.sqf";																//		Advanced Vehicle System
 
 if hasInterface then
 {
