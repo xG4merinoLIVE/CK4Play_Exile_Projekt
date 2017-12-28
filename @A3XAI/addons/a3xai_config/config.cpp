@@ -103,7 +103,7 @@ class CfgA3XAISettings {
 
 
 	//Enable or disable radio message receiving. Players with radios or part of a group with at least one radio will be able to intercept some AI communications. (Default: 0)
-	enableRadioMessages = 0;
+	enableRadioMessages = 1;
 
 
 	/*	Shared AI Unit Settings. These settings affect all AI spawned unless noted otherwise.
