@@ -82,4 +82,7 @@ class RscTitles {
 
 #include "config.cpp"
 #include "CfgRemoteExec.hpp"
+#include "infiSTAR_defines.hpp"
+#include "infiSTAR_AdminMenu.hpp"
+#include "infiSTAR_chat.hpp"
 #include "sounds.hpp"
