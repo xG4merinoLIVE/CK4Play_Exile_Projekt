@@ -205,6 +205,22 @@
 			<Key ID="STR_HOPE_NATION_CRAFTING_CRAFT_BUTTON">
 				<Original>Craft</Original>
 				<German>Herstellen</German>			
+			</Key>			
+			<Key ID="STR_HOPE_NATION_VIEWDISTANCE_TITEL">
+				<Original>&lt;t align='center' font='RobotoMedium'&gt;View Distance APP&lt;/t&gt;</Original>
+				<German>&lt;t align='center' font='RobotoMedium'&gt;Sichtweite APP&lt;/t&gt;</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIEWDISTANCE_GOBACK">
+				<Original>Go Back</Original>
+				<German>Zurück</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIEWDISTANCE_CURRENT_OBJECTDISTANCE_TEXT">
+				<Original>Current object view distance:</Original>
+				<German>Aktuelle Objekt Sichtweite:</German>			
+			</Key>
+			<Key ID="STR_HOPE_NATION_VIEWDISTANCE_CURRENT_VIEWDISTANCE_TEXT">
+				<Original>Current View Distance:</Original>
+				<German>Aktuelle Sichtweite:</German>			
 			</Key>
 		</Container>
 	</Package>
