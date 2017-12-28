@@ -3717,13 +3717,13 @@ class CfgSettings
 		*/
 		class Frags
 		{
-			domination = 80;			// Keeps killing the same guy
-			letItRain = 150;			// MG, also vehicle MGs
-			humiliation = 300;			// Axe
-			passenger = 400;			// Out of car/chopper/boat
-			roadKill = 200;				// :)
-			bigBird = 600;				// Roadkill, but with chopper/plane
-			chuteGreaterChopper = 1000;	// Someone flies into chute and chopper/plane explodes	
+			domination = 0;			// Keeps killing the same guy
+			letItRain = 0;			// MG, also vehicle MGs
+			humiliation = 0;			// Axe
+			passenger = 0;			// Out of car/chopper/boat
+			roadKill = 0;				// :)
+			bigBird = 0;				// Roadkill, but with chopper/plane
+			chuteGreaterChopper = 0;	// Someone flies into chute and chopper/plane explodes	
 		};
 
 		class Percentages 
@@ -3739,10 +3739,10 @@ class CfgSettings
 
 		class Handcuffs 
 		{
-			trapping = -50;					// A handcuffs B
-			breakingFree = 100; 			// B broke free
-			releasedByHero = 100; 			// C releases B
-			releasedByHostageTaker = 50; 	// A releases B	
+			trapping = -500;				// A handcuffs B
+			breakingFree = 0; 				// B broke free
+			releasedByHero = 0; 			// C releases B
+			releasedByHostageTaker = 0; 	// A releases B	
 		};
 
 		class Bonus
@@ -3806,7 +3806,7 @@ class CfgSettings
 			"ItemRadio",
 			"Exile_Item_PlasticBottleFreshWater",
 			"Exile_Item_EMRE",
-			"Exile_Item_Bandage"
+			"Exile_Item_InstaDoc"
 		};
 
 		/**
