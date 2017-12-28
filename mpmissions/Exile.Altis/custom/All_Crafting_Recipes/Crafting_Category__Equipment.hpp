@@ -110,20 +110,3 @@ class CraftToiletpaper: Exile_AbstractCraftingRecipe
     };	
 	category = "$STR_HOPE_NATION_CAT_EQUIPMENT";		
 };
-
-/**********************************    WATERCANISTER    **********************************/
-class CraftWaterCanister: Exile_AbstractCraftingRecipe
-{
-    name = "Craft Dirty Water Canister";
-    pictureItem = "Exile_Item_WaterCanisterDirtyWater";
-	requiredInteractionModelGroup = "WaterSource";
-    returnedItems[] =
-    {
-        {1, "Exile_Item_WaterCanisterDirtyWater"}
-    };
-    components[] =
-    {
-        {1, "Exile_Item_WaterCanisterEmpty"}
-    };	
-	category = "$STR_HOPE_NATION_CAT_EQUIPMENT";		
-};

@@ -333,3 +333,41 @@ class CraftMetalPole: Exile_AbstractCraftingRecipe
 	};	
 	category = "$STR_HOPE_NATION_CAT_HARDWARE";	
 };
+
+/**********************************    FUEL CANISTER EMPTY    **********************************/
+class CraftFuelCanisterEmpty: Exile_AbstractCraftingRecipe
+{
+	name = "Craft Fuel Canister (Empty)";
+	pictureItem = "Exile_Item_FuelCanisterEmpty";
+	requiresFire = 1;
+	returnedItems[] = 
+	{
+		{1, "Exile_Item_FuelCanisterEmpty"}
+	};
+	tools[] = 
+	{
+		"Exile_Item_Grinder"
+	};	
+	components[] = 
+	{
+		{2, "Exile_Item_MetalBoard"}
+	};	
+	category = "$STR_HOPE_NATION_CAT_HARDWARE";	
+};
+
+/**********************************    WATERCANISTER    **********************************/
+class CraftWaterCanister: Exile_AbstractCraftingRecipe
+{
+    name = "Craft Dirty Water Canister";
+    pictureItem = "Exile_Item_WaterCanisterDirtyWater";
+	requiredInteractionModelGroup = "CleanWaterSource";
+    returnedItems[] =
+    {
+        {1, "Exile_Item_WaterCanisterDirtyWater"}
+    };
+    components[] =
+    {
+        {1, "Exile_Item_WaterCanisterEmpty"}
+    };	
+	category = "$STR_HOPE_NATION_CAT_EQUIPMENT";		
+};
