@@ -205,8 +205,8 @@ class CfgA3XAISettings {
 	enableStaticSpawns = 1;
 	
 	//Set minimum and maximum wait time (seconds) to respawn an AI group after all units have been killed. Applies to both static AI and custom spawned AI (Default: Min 300, Max 600).									
-	respawnTimeMin = 300;
-	respawnTimeMax = 600;
+	respawnTimeMin = 600;
+	respawnTimeMax = 1200;
 	
 	//Time to allow spawned AI units to exist in seconds before being despawned when no players are present in a trigger area. Applies to both static AI and custom spawned AI (Default: 120)										
 	despawnWait = 120;
