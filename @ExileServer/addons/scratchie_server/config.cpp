@@ -45,7 +45,7 @@ class CfgSettings
         /**
          * @var integer set the price per scratchie (default: 200)
          */
-        Price = 200;
+        Price = 75;
         
         /**
          * @var integer inform all players about the scratchie winner
