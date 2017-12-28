@@ -215,12 +215,12 @@
 				<German>Zurück</German>			
 			</Key>
 			<Key ID="STR_HOPE_NATION_VIEWDISTANCE_CURRENT_OBJECTDISTANCE_TEXT">
-				<Original>Current object view distance:</Original>
-				<German>Aktuelle Objekt Sichtweite:</German>			
+				<Original>Current object view distance: %1</Original>
+				<German>Aktuelle Objekt Sichtweite: %1</German>			
 			</Key>
 			<Key ID="STR_HOPE_NATION_VIEWDISTANCE_CURRENT_VIEWDISTANCE_TEXT">
-				<Original>Current View Distance:</Original>
-				<German>Aktuelle Sichtweite:</German>			
+				<Original>Current View Distance: %1</Original>
+				<German>Aktuelle Sichtweite: %1</German>			
 			</Key>
 		</Container>
 	</Package>

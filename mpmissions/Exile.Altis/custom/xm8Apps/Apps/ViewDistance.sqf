@@ -63,8 +63,8 @@ _ObjVeiwDistSlider sliderSetPosition _curObjViewDist;
 _curObjViewDistText = _display ctrlCreate ["RscStructuredText", 1114];
 _curObjViewDistText ctrlSetPosition [(13 - 3) * (0.025), (14.3- 2) * (0.04),(0.5),(0.04)];
 _curObjViewDistText ctrlCommit 0;
-(_display displayCtrl 1114) ctrlSetStructuredText (parseText (format [ localize "STR_HOPE_NATION_VIEWDISTANCE_CURRENT_OBJECTDISTANCE_TEXT %1",_curObjViewDist]));
-(_display displayCtrl 1119) ctrlSetStructuredText (parseText (format [ localize "STR_HOPE_NATION_VIEWDISTANCE_CURRENT_VIEWDISTANCE_TEXT %1",_curViewDist]));
+(_display displayCtrl 1114) ctrlSetStructuredText (parseText (format [ localize "STR_HOPE_NATION_VIEWDISTANCE_CURRENT_OBJECTDISTANCE_TEXT",_curObjViewDist]));
+(_display displayCtrl 1119) ctrlSetStructuredText (parseText (format [ localize "STR_HOPE_NATION_VIEWDISTANCE_CURRENT_VIEWDISTANCE_TEXT",_curViewDist]));
 
 _GoBackBtn = _display ctrlCreate ["RscButtonMenu", 1116];
 _GoBackBtn ctrlSetPosition [(32 - 3) * (0.025),(20 - 2) * (0.04),6 * (0.025),1 * (0.04)];
@@ -78,7 +78,7 @@ _display = uiNameSpace getVariable ["RscExileXM8", displayNull];
 _VDSliderPos = _this select 1;
 setViewDistance _VDSliderPos;
 _curViewDist = _VDSliderPos;
-(_display displayCtrl 1119) ctrlSetStructuredText (parseText (format [ localize "STR_HOPE_NATION_VIEWDISTANCE_CURRENT_VIEWDISTANCE_TEXT %1",_curViewDist]));
+(_display displayCtrl 1119) ctrlSetStructuredText (parseText (format [ localize "STR_HOPE_NATION_VIEWDISTANCE_CURRENT_VIEWDISTANCE_TEXT",_curViewDist]));
 };
 
 //function to update object view distance
@@ -87,7 +87,7 @@ _display = uiNameSpace getVariable ["RscExileXM8", displayNull];
 _OVDSliderPos = _this select 1;
 setObjectViewDistance  _OVDSliderPos;
 _curObjViewDist = _OVDSliderPos;
-(_display displayCtrl 1114) ctrlSetStructuredText (parseText (format [ localize "STR_HOPE_NATION_VIEWDISTANCE_CURRENT_OBJECTDISTANCE_TEXT %1",_OVDSliderPos]));
+(_display displayCtrl 1114) ctrlSetStructuredText (parseText (format [ localize "STR_HOPE_NATION_VIEWDISTANCE_CURRENT_OBJECTDISTANCE_TEXT",_OVDSliderPos]));
 };
 
 fnc_goBack = {
