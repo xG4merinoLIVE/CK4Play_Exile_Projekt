@@ -32,11 +32,6 @@ disableSerialization;
 			};
 			//initialize variables and set values
 			_unit = _this select 0;
-			//_damage = round ((1 - (damage player)) * 100);
-			//_damage = (round(_damage * 100));
-			_hunger = round (ExileClientPlayerAttributes select 2);
-			_thirst = round (ExileClientPlayerAttributes select 3);
-			_bodytemp = round (ExileClientPlayerAttributes select 5);
 			_ambient = [ExileClientEnvironmentTemperature, 1] call ExileClient_util_math_round;
 			_wallet =  (player getVariable ["ExileMoney", 0]);
 			_lockers = (player getVariable ["ExileLocker", 0]);
@@ -77,111 +72,34 @@ disableSerialization;
 			_colour10 		= parseText "#CC3B61"; //
 			_colour0 		= parseText "#C72650"; //
 			_colourDead 	= parseText "#000000";
-/*
-			//Colour coding
-			//Damage
-			_colourDamage = _colourDefault;
-			if(_damage >= 100) then{_colourDamage = _colourDefault;};
-			if((_damage >= 90) && (_damage < 100)) then {_colourDamage =  _colour90;};
-			if((_damage >= 80) && (_damage < 90)) then {_colourDamage =  _colour80;};
-			if((_damage >= 70) && (_damage < 80)) then {_colourDamage =  _colour70;};
-			if((_damage >= 60) && (_damage < 70)) then {_colourDamage =  _colour60;};
-			if((_damage >= 50) && (_damage < 60)) then {_colourDamage =  _colour50;};
-			if((_damage >= 40) && (_damage < 50)) then {_colourDamage =  _colour40;};
-			if((_damage >= 30) && (_damage < 40)) then {_colourDamage =  _colour30;};
-			if((_damage >= 20) && (_damage < 30)) then {_colourDamage =  _colour20;};
-			if((_damage >= 10) && (_damage < 20)) then {_colourDamage =  _colour10;};
-			if((_damage >= 1) && (_damage < 10)) then {_colourDamage =  _colour0;};
-			if(_damage < 1) then{_colourDamage =  _colourDead;};
-
-			//Hunger
-			_colourHunger = _colourDefault;
-			if(_hunger >= 100) then{_colourHunger = _colourDefault;};
-			if((_hunger >= 90) && (_hunger < 100)) then {_colourHunger =  _colour90;};
-			if((_hunger >= 80) && (_hunger < 90)) then {_colourHunger =  _colour80;};
-			if((_hunger >= 70) && (_hunger < 80)) then {_colourHunger =  _colour70;};
-			if((_hunger >= 60) && (_hunger < 70)) then {_colourHunger =  _colour60;};
-			if((_hunger >= 50) && (_hunger < 60)) then {_colourHunger =  _colour50;};
-			if((_hunger >= 40) && (_hunger < 50)) then {_colourHunger =  _colour40;};
-			if((_hunger >= 30) && (_hunger < 40)) then {_colourHunger =  _colour30;};
-			if((_hunger >= 20) && (_hunger < 30)) then {_colourHunger =  _colour20;};
-			if((_hunger >= 10) && (_hunger < 20)) then {_colourHunger =  _colour10;};
-			if((_hunger >= 1) && (_hunger < 10)) then {_colourHunger =  _colour0;};
-			if(_hunger < 1) then{_colourHunger =  _colourDead;};
-
-
-			//Thirst
-			_colourThirst = _colourDefault;
-			switch true do
-			{
-				case(_thirst >= 100) : {_colourThirst = _colourDefault;};
-				case((_thirst >= 90) && (_thirst < 100)) :  {_colourThirst =  _colour90;};
-				case((_thirst >= 80) && (_thirst < 90)) :  {_colourThirst =  _colour80;};
-				case((_thirst >= 70) && (_thirst < 80)) :  {_colourThirst =  _colour70;};
-				case((_thirst >= 60) && (_thirst < 70)) :  {_colourThirst =  _colour60;};
-				case((_thirst >= 50) && (_thirst < 60)) :  {_colourThirst =  _colour50;};
-				case((_thirst >= 40) && (_thirst < 50)) :  {_colourThirst =  _colour40;};
-				case((_thirst >= 30) && (_thirst < 40)) :  {_colourThirst =  _colour30;};
-				case((_thirst >= 20) && (_thirst < 30)) :  {_colourThirst =  _colour20;};
-				case((_thirst >= 10) && (_thirst < 20)) :  {_colourThirst =  _colour10;};
-				case((_thirst >= 1) && (_thirst < 10)) :  {_colourThirst =  _colour0;};
-				case(_thirst < 1) : {_colourThirst =  _colourDead;};
-			};
-			
-			
-						//Thirst
-			_colourCold = _colourDefault;
-			switch true do
-			{
-				case(_bodytemp >= 37) : {_colourCold = _colourDefault;};
-				case((_bodytemp >= 37) && (_bodytemp < 38)) :  {_colourCold =  _colour90;};
-				case((_bodytemp >= 36) && (_bodytemp < 37)) :  {_colourCold =  _colour80;};
-				case((_bodytemp >= 35) && (_bodytemp < 36)) :  {_colourCold =  _colour70;};
-				case((_bodytemp >= 34) && (_bodytemp < 35)) :  {_colourCold =  _colour60;};
-				case((_bodytemp >= 34) && (_bodytemp < 35)) :  {_colourCold =  _colour50;};
-				case((_bodytemp >= 33) && (_bodytemp < 34)) :  {_colourCold =  _colour40;};
-				case((_bodytemp >= 33) && (_bodytemp < 34)) :  {_colourCold =  _colour30;};
-				case((_bodytemp >= 32) && (_bodytemp < 33)) :  {_colourCold =  _colour20;};
-				case((_bodytemp >= 31) && (_bodytemp < 32)) :  {_colourCold =  _colour10;};
-				case((_bodytemp >= 1) && (_bodytemp < 10)) :  {_colourCold =  _colour0;};
-				case(_bodytemp < 1) : {_colourCold =  _colourDead;};
-			};
-		*/	
 		
 			//display the information
 			((uiNamespace getVariable "RscStatusBar")displayCtrl 55554) ctrlSetStructuredText
 			parseText
 			format
 			["
-				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Play_Friendly.paa' color='%10'/> ONLY PVE</t>
-				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Spieler_Online.paa' color='%10'/> %2</t>
-				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Bargeld.paa' color='%10'/> %3</t>
-				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Locker.paa' color='%10'/> %4</t>
-				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Position.paa' color='%10'/> %11</t>
-				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Mikrofon.paa' color='%10'/> CK4PLAY.DE</t>
-				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Server_Neustart.paa' color='%10'/> %12h:%13m</t>
-				<t shadow='1' shadowColor='#000000' color='%10'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Meine_FPS.paa' color='%10'/> FPS: %9</t>",
+				<t shadow='1' shadowColor='#000000' color='%8'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Play_Friendly.paa' color='%8'/> ONLY PVE</t>
+				<t shadow='1' shadowColor='#000000' color='%8'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Spieler_Online.paa' color='%8'/> %2</t>
+				<t shadow='1' shadowColor='#000000' color='%8'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Bargeld.paa' color='%8'/> %3</t>
+				<t shadow='1' shadowColor='#000000' color='%8'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Locker.paa' color='%8'/> %4</t>
+				<t shadow='1' shadowColor='#000000' color='%8'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Position.paa' color='%8'/> %9</t>
+				<t shadow='1' shadowColor='#000000' color='%8'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Mikrofon.paa' color='%8'/> CK4PLAY.DE</t>
+				<t shadow='1' shadowColor='#000000' color='%8'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Server_Neustart.paa' color='%8'/> %10h:%11m</t>
+				<t shadow='1' shadowColor='#000000' color='%8'><img size='1.0'  shadowColor='#000000' image='custom\StatusBar\icons\weiss\Weiss_Meine_FPS.paa' color='%8'/> FPS: %5</t>",
 
 						"%",								// 1
 						count playableUnits,				// 2
 						_wallet,							// 3
 						_lockers,							// 4
-						_hunger,							// 5
-						_thirst,							// 6
-						_serverFPS,							// 7
-						_respect,							// 8
-						_colourDefault,						// 9
-						format["%1/%2",_xx,_yy],			// 10
-						_dir,								// 11
-						_hours,								// 12
-						_minutes,							// 13
-						_colourDamage,						// 14
-						_colourHunger,						// 15
-						_colourThirst,						// 16
-						_colourCold,						// 17
-						_ambient,							// 18
-						_bodytemp,							// 19
-						"°C"								// 20
+						_serverFPS,							// 5
+						_respect,							// 6
+						_colourDefault,						// 7
+						format["%1/%2",_xx,_yy],			// 8
+						_dir,								// 9
+						_hours,								// 10
+						_minutes,							// 11
+						_ambient,							// 12
+						"°C"								// 13
 			];
 	};
 };
