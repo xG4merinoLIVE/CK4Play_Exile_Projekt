@@ -8,7 +8,7 @@ uiSleep 10;
 //_seasonInfo = [(date select 1)] call JohnO_fnc_getCurrentSeason;
 //_season = (_seasonInfo select 1);
 
-[parseText format["<t size='0.6'font='OrbitronLight' color='#ffffff'>. . . . Herzlich Willkommen %1 . . . .</t><br/><t size='0.6'font='OrbitronLight' color='#908EAA'>. . . . Dies is ein ONLY PVE Server der CK4PLAY Community . . . .</t>",name player,_level],0,1,30,0] spawn bis_fnc_dynamictext;
+[parseText format["<t size='0.6'font='OrbitronLight' color='#ffffff'>. . . . Herzlich Willkommen %1 . . . .</t><br/><t size='0.6'font='OrbitronLight' color='#908EAA'>. . . . Dies is ein ONLY PVE Server der CK4PLAY Community . . . .</t>",name player],0,1,30,0] spawn bis_fnc_dynamictext; //,_level
 
 uiSleep 10;
 
