@@ -116,7 +116,7 @@ class FillFuelCanisterEmpty: Exile_AbstractCraftingRecipe
 {
 	name = "Refill Fuel Canister";
 	pictureItem = "Exile_Item_FuelCanisterFull";
-	requiredInteractionModelGroup = "Land_fs_feed_F";
+	requiredInteractionModelGroup = "FuelSource";
 	returnedItems[] = 
 	{
 		{1, "Exile_Item_FuelCanisterFull"}
