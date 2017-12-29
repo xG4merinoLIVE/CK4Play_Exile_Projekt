@@ -110,3 +110,20 @@ class CraftToiletpaper: Exile_AbstractCraftingRecipe
     };	
 	category = "$STR_HOPE_NATION_CAT_EQUIPMENT";		
 };
+
+/*****************************   FILL EMPTY FUEL CANISTER    **********************************/
+class FillFuelCanisterEmpty: Exile_AbstractCraftingRecipe
+{
+	name = "Refill Fuel Canister";
+	pictureItem = "Exile_Item_FuelCanisterFull";
+	requiredInteractionModelGroup = "Land_fs_feed_F";
+	returnedItems[] = 
+	{
+		{1, "Exile_Item_FuelCanisterFull"}
+	};
+	components[] = 
+	{
+		{1, "Exile_Item_FuelCanisterEmpty"}
+	};	
+	category = "$STR_HOPE_NATION_CAT_EQUIPMENT";	
+};
