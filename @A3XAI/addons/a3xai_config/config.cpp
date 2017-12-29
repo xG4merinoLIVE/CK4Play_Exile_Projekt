@@ -173,7 +173,7 @@ class CfgA3XAISettings {
 	launcherTypes[] = {"launch_NLAW_F","launch_RPG32_F","launch_B_Titan_F","launch_I_Titan_F","launch_O_Titan_F","launch_B_Titan_short_F","launch_I_Titan_short_F","launch_O_Titan_short_F"}; 
 	
 	//Maximum number of launcher weapons allowed per group (Default: 1)
-	launchersPerGroup = 1;
+	launchersPerGroup = 0;
 	
 	//Enable or disable AI self-healing. Level 0 AI cannot self-heal. Affects: All AI infantry units (Default: 1).
 	enableHealing = 1;
@@ -325,7 +325,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/	
 
 	//Global maximum number of active AI land vehicle patrols. Set at 0 to disable (Default: 0).	
-	maxLandPatrols = 3;
+	maxLandPatrols = 5;
 	
 	//Probability of spawning Level 0/1/2/3 AI land vehicle spawns. Probabilities should add up to 1.00		
 	levelChancesLand[] = {0.00,0.70,0.15,0.15};
@@ -344,7 +344,7 @@ class CfgA3XAISettings {
 		//{"Exile_Car_Offroad_Armed_Guerilla01",1},
 		{"Exile_Car_Strider",1},
 		{"Exile_Car_Hunter",1},
-		{"Exile_Car_Ifrit",1},
+		{"Exile_Car_Ifrit",0},
 		{"Exile_Car_Van_Box_Black",1},
 		{"Exile_Car_Van_Fuel_Black",1},
 		{"Exile_Car_Hatchback_Sport_White",1},
