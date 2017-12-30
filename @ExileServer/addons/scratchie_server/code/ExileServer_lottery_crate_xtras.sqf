@@ -21,7 +21,7 @@ if (_mag != "") then {
 switch (_weapon) do
 {
     // Example to add two more magazines for the GM6
-    case "srifle_GM6_LRPS_F": {
+    case "srifle_GM6_F": {
         _crate addMagazineCargoGlobal [_mag, 2];
     };
    
