@@ -4387,7 +4387,7 @@ class CfgTraderCategories
 			"10Rnd_762x54_Mag",
 			"10Rnd_93x64_DMR_05_Mag",
 			"11Rnd_45ACP_Mag",
-			//"130Rnd_338_Mag", SPMG
+			"130Rnd_338_Mag", SPMG
 			"150Rnd_762x54_Box",
 			"150Rnd_762x54_Box_Tracer",
 			"150Rnd_93x64_Mag", // NAVID
@@ -4614,15 +4614,12 @@ class CfgTraderCategories
 			"LMG_03_F",
 			"Exile_Weapon_RPK",
 			"Exile_Weapon_PK",
-			"Exile_Weapon_PKP",
-			"MMG_01_hex_F"
-
-			/*
+			"MMG_02_camo_F",
 			"MMG_01_tan_F",
 			"MMG_02_black_F",
-			"MMG_02_camo_F",
 			"MMG_02_sand_F"
-			*/
+			"Exile_Weapon_PKP",
+			"MMG_01_hex_F"
 		};
 	};
 
