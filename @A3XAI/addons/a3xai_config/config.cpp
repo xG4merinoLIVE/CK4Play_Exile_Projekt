@@ -343,7 +343,7 @@ class CfgA3XAISettings {
 		//{"Exile_Car_Offroad_Guerilla06",1},
 		//{"Exile_Car_Offroad_Armed_Guerilla01",1},
 		{"Exile_Car_Strider",1},
-		{"Exile_Car_Hunter",1},
+		//{"Exile_Car_Hunter",1},
 		{"Exile_Car_Ifrit",0},
 		{"Exile_Car_Van_Box_Black",1},
 		{"Exile_Car_Van_Fuel_Black",1},
