@@ -3633,21 +3633,21 @@ class CfgSettings
 			// Dropped items without fissix
 			class GroundWeaponHolder
 			{
-				lifeTime = 10;
+				lifeTime = 20;
 				interval = 5;
 			};
 
 			// Dropped items with fissix
 			class WeaponHolderSimulated
 			{
-				lifeTime = 10;
+				lifeTime = 20;
 				interval = 5;
 			};
 
 			// Corpses and wrecks
 			class AllDead 
 			{
-				lifeTime = 15;
+				lifeTime = 30;
 				interval = 5;
 			};
 
@@ -3897,8 +3897,8 @@ class CfgSettings
         * serverstart will take long time 
         * 70 Vehicles ~ 3 minutes
         */
-        groundVehicleAmount = 40; //"0"=Disabled
-        waterVehicleAmount = 20; //"0"=Disabled
+        groundVehicleAmount = 55; //"0"=Disabled
+        waterVehicleAmount = 15; //"0"=Disabled
         airVehicleAmount = 10; //"0"=Disabled
         /**
         * Creates global markers for vehicle spawn tweeking,
@@ -3917,13 +3917,13 @@ class CfgSettings
         /**
         * The server will apply random damage up to this value when spawning a vehicle.
         */
-        groundDamageChance = 65; // 20% chance for a vehicle HITPOINT to be damaged
-        waterDamageChance = 65; // 20% chance for a vehicle HITPOINT to be damaged
-        airDamageChance = 65; // 20% chance for a vehicle HITPOINT to be damaged
+        groundDamageChance = 45; // 20% chance for a vehicle HITPOINT to be damaged
+        waterDamageChance = 45; // 20% chance for a vehicle HITPOINT to be damaged
+        airDamageChance = 45; // 20% chance for a vehicle HITPOINT to be damaged
         
-        groundMaximumDamage = 75; // vehicle HITPOINT to be damaged
-        waterMaximumDamage = 20; // vehicle HITPOINT to be damaged
-        airMaximumDamage = 60; // vehicle HITPOINT to be damaged
+        groundMaximumDamage = 55; // vehicle HITPOINT to be damaged
+        waterMaximumDamage = 10; // vehicle HITPOINT to be damaged
+        airMaximumDamage = 40; // vehicle HITPOINT to be damaged
         /**
          * Enables or disables nightvision optics on ALL vehicles
          *

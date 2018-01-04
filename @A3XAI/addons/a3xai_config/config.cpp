@@ -205,8 +205,8 @@ class CfgA3XAISettings {
 	enableStaticSpawns = 1;
 	
 	//Set minimum and maximum wait time (seconds) to respawn an AI group after all units have been killed. Applies to both static AI and custom spawned AI (Default: Min 300, Max 600).									
-	respawnTimeMin = 600;
-	respawnTimeMax = 1200;
+	respawnTimeMin = 1800;
+	respawnTimeMax = 3600;
 	
 	//Time to allow spawned AI units to exist in seconds before being despawned when no players are present in a trigger area. Applies to both static AI and custom spawned AI (Default: 120)										
 	despawnWait = 120;
@@ -227,7 +227,7 @@ class CfgA3XAISettings {
 	maxDynamicSpawns = 15;
 	
 	//Minimum time (in seconds) that must pass between dynamic spawns for each player (Default: 900)
-	timePerDynamicSpawn = 900;
+	timePerDynamicSpawn = 1800;
 	
 	//Players offline for this amount of time (seconds) will have their last spawn timestamp reset (Default: 3600)
 	purgeLastDynamicSpawnTime = 3600;
@@ -331,8 +331,8 @@ class CfgA3XAISettings {
 	levelChancesLand[] = {0.00,0.70,0.15,0.15};
 	
 	//Set minimum and maximum wait time in seconds to respawn an AI vehicle patrol after vehicle is destroyed or disabled. (Default: Min 600, Max 900).
-	respawnLandMinTime = 600;
-	respawnLandMaxTime = 900;
+	respawnLandMinTime = 1800;
+	respawnLandMaxTime = 3600;
 	
 	//Classnames of land vehicle types to use, with the maximum amount of each type to spawn.
 	landVehicleList[] = {
@@ -358,10 +358,10 @@ class CfgA3XAISettings {
 	};
 	
 	//Maximum number of gunner units per land vehicle. Limited by actual number of available gunner positions. (Default: 2)
-	landGunnerUnits = 2;
+	landGunnerUnits = 1;
 	
 	//Maximum number of cargo units per land vehicle. Limited by actual number of available cargo positions. (Default: 3)
-	landCargoUnits = 3;
+	landCargoUnits = 2;
 	
 	
 	/*	AI Air Reinforcement Settings
@@ -635,7 +635,7 @@ class CfgA3XAISettings {
 	respectBigBird = 600;
 	
 	//Respect bonus for collision kills by vehicle driver
-	respectRoadkill = 500;
+	respectRoadkill = 0;
 	
 	//Respect bonus for kills with vehicle weapons
 	respectLetItRain = 150;
