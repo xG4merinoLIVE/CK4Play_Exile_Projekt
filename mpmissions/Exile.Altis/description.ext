@@ -70,7 +70,7 @@ showHUD[] =
     false,  // Commanding menu
     false,  // Group Bar
     true,   // HUD Weapon Cursors
-    false   // Squad Radar
+    true
 };
 
 class RscTitles {
