@@ -5,7 +5,7 @@ while {_i < 7} do
 {
 	if ( _i == 1) then 
 	{
-		_reward = (500 * multiPlyWith);
+		_reward = (150 * multiPlyWith);
 		player setVariable ["ExileMoney", ((player getVariable ["ExileMoney", 0]) + _reward), true];
 		["InfoTitleAndText", [ localize "STR_HOPE_NATION_LOYALTYSYSTEM_TITEL", localize "STR_HOPE_NATION_LOYALTYSYSTEM_TEXT"]] call ExileClient_gui_toaster_addTemplateToast;
 		multiPlyWith = multiPlyWith + 1;
