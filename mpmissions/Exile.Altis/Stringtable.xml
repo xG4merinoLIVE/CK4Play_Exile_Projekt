@@ -143,8 +143,8 @@
 				<German>Deine Belohnung!</German>			
 			</Key>
 			<Key ID="STR_HOPE_NATION_LOYALTYSYSTEM_TEXT">
-				<Original>You received 500 Poptabs.</Original>
-				<German>Du hast 500 Poptabs erhalten.</German>			
+				<Original>You received 150 Poptabs.</Original>
+				<German>Du hast 150 Poptabs erhalten.</German>			
 			</Key>
 		</Container>
 	</Package>
