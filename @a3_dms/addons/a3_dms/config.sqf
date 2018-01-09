@@ -297,9 +297,9 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 
 	DMS_StaticMissionsOnServerStart =	[							// List of STATIC missions with spawn chances.
 											"saltflats",			//<--Example
-											"slums",				//<--Example
-											"ai_island",			//Custom AI Island ( Von Spieler Erstellt )
-											"kastro_castle"			//Custom Kavala Castle ( Von Spieler Erstellt )
+											"slums"					//<--Example
+											//"ai_island",			//Custom AI Island ( Von Spieler Erstellt )
+											//"kastro_castle"		//Custom Kavala Castle ( Von Spieler Erstellt )
 											//"occupation"			//<--Example
 											//"sectorB"				//<--Example for Taviana
 										];

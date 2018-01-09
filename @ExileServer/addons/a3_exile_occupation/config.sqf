@@ -21,7 +21,7 @@ SC_useApexClasses           	= true;                 	// true if you want to use
 SC_useMapOverrides          	= true;                 	// set to true to enable over riding options per map (see the bottom of this file for examples)
 
 SC_maxAIcount					= 100;						// the maximum amount of AI, if the AI count is above this then additional AI won't spawn
-SC_mapMarkers					= true;                	// Place map markers at the occupied areas (occupyPlaces and occupyMilitary only) true/false
+SC_mapMarkers					= true;                		// Place map markers at the occupied areas (occupyPlaces and occupyMilitary only) true/false
 SC_minFPS						= 5;				    	// any lower than minFPS on the server and additional AI won't spawn
 SC_scaleAI						= 10;						// any more than _scaleAI players on the server and _maxAIcount is reduced for each extra player
 
@@ -47,8 +47,8 @@ SC_occupyRandomSpawn        	= false;               		// (WORK IN PROGRESS) true
 SC_occupyMilitary 		    	= true;				    	// true if you want military buildings patrolled
 SC_occupyVehicle				= true;						// true if you want to have roaming AI land vehicles
 SC_occupySky					= false;					// true if you want to have roaming AI helis
-SC_occupySea					= false;					// true if you want to have roaming AI boats
-SC_occupyHeliCrashes			= false;					// true if you want to have Dayz style helicrashes
+SC_occupySea					= true;						// true if you want to have roaming AI boats
+SC_occupyHeliCrashes			= true;						// true if you want to have Dayz style helicrashes
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //	Fast nights Setup
@@ -64,7 +64,7 @@ SC_fastNightsMultiplierDay  	= 4;                    	// the time multiplier to 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 SC_randomSpawnMinPlayers    	= 1;                    	// Minimum number of players to be online before random spawning AI can spawn
-SC_randomSpawnMaxGroups        	= 4;                    	// Maximum amount of random AI groups allowed at any time
+SC_randomSpawnMaxGroups        	= 5;                    	// Maximum amount of random AI groups allowed at any time
 SC_randomSpawnMinGroupSize      = 3;                    	// Minimum amount of random AI groups allowed per group
 SC_randomSpawnMaxGroupSize      = 5;                    	// Maximum amount of random AI groups allowed per group
 SC_randomSpawnChance			= 12;						// Percentage chance of spawning if suitable player found
@@ -144,7 +144,7 @@ SC_occupyLootCratesLocations	= [
                                 ];
 SC_SpawnLootCrateGuards			= true;						// true if you want to enable AI guards
 SC_numberofLootCrates       	= 6;                    	// if SC_occupyLootCrates = true spawn this many loot crates (overrided below for Namalsk)
-SC_LootCrateGuards          	= 2;                    	// number of AI to spawn at each crate
+SC_LootCrateGuards          	= 5;                    	// number of AI to spawn at each crate
 SC_LootCrateGuardsRandomize 	= false;                 	// Use a random number of guards up to a maximum = SC_LootCrateGuards (so between 1 and SC_LootCrateGuards)
 SC_occupyLootCratesMarkers		= true;						// true if you want to have markers on the loot crate spawns
 
@@ -272,12 +272,15 @@ SC_occupyVehicleFixedPositions	= [
 
 // Array of arrays of ground vehicles which can be used by AI patrols (the number next to next vehicle is the maximum amount of that class allowed, 0 for no limit)				
 SC_VehicleClassToUse 			=   [	
-									["Exile_Car_LandRover_Green",0],
-                                    ["Exile_Bike_QuadBike_Black",2],
-                                    ["Exile_Car_UAZ_Open_Green",2] 
+									["Exile_Bike_MountainBike",1],
+									["Exile_Car_LandRover_Green",1],
+                                    ["Exile_Bike_QuadBike_Black",1],
+                                    ["Exile_Car_UAZ_Open_Green",1] 
                                 ];
 SC_VehicleClassToUseRare		=   [	
-                                    ["Exile_Car_Hunter",1],
+                                    ["Fox_CobraR_Police",1],
+									["Exile_Car_SUVXL_Black",1],
+									["Exile_Car_Hunter",1],
                                     ["Exile_Car_HEMMT",1],
                                     ["Exile_Car_Zamak",1],
                                     ["Exile_Car_Offroad_Armed_Guerilla12",1],
@@ -332,8 +335,8 @@ SC_occupySeaVehicleIgnoreCount		= false;	// true if you want spawn vehicles rega
 
 // Array of boats which can be used by AI patrols (the number next to next vehicle is the maximum amount of that class allowed, 0 for no limit)
 SC_BoatClassToUse 		    =   [	
-                                    ["B_Boat_Armed_01_minigun_F",1],
-                                    ["I_Boat_Armed_01_minigun_F",1],
+                                    ["B_Boat_Armed_01_minigun_F",0],
+                                    ["I_Boat_Armed_01_minigun_F",0],
                                     ["O_Boat_Transport_01_F",0],
                                     ["Exile_Boat_MotorBoat_Police",1] 
                                 ];
@@ -410,7 +413,7 @@ SC_SurvivorBackpack         	= [];
 
 // Possible equipment for bandit AI to spawn with 
 // spawning bandits without vests or backpacks will result in them having no ammunition                                                    
-SC_BanditUniforms           	= ["U_IG_Guerilla1_1","U_IG_Guerilla2_1","U_IG_Guerilla2_2","U_IG_Guerilla2_3","U_IG_Guerilla3_1","U_BG_Guerilla2_1","U_IG_Guerilla3_2","U_BG_Guerrilla_6_1","U_BG_Guerilla1_1","U_BG_Guerilla2_2","U_BG_Guerilla2_3","U_BG_Guerilla3_1"]; 
+SC_BanditUniforms           	= ["U_C_Scientist"]; 
 SC_BanditVests              	= ["V_BandollierB_blk","V_BandollierB_cbr","V_BandollierB_khk","V_BandollierB_oli"]; 
 SC_BanditHeadgear           	= ["H_Shemag_khk","H_Shemag_olive","H_Shemag_olive_hs","H_Shemag_tan","H_ShemagOpen_khk","H_ShemagOpen_tan"];
 SC_BanditWeapon             	= ["LMG_Zafir_F","arifle_Katiba_C_F","arifle_Katiba_F","arifle_Katiba_GL_F","arifle_MXC_Black_F","arifle_MXC_F","arifle_TRG20_F","arifle_TRG21_F","arifle_TRG21_GL_F"];
@@ -424,7 +427,7 @@ SC_BanditBackpack           	= ["B_HuntingBackpack","B_Kitbag_cbr","B_Kitbag_mca
 
 // Possible equipment for random ai to spawn with 
 // spawning random ai without vests or backpacks will result in them having no ammunition                                                    
-SC_RandomUniforms           	= ["U_B_GEN_Soldier_F"]; 
+SC_RandomUniforms           	= ["U_C_Scientist"]; 
 SC_RandomVests              	= ["V_TacVest_gen_F"]; 
 SC_RandomHeadgear           	= ["H_Cap_police"];
 SC_RandomWeapon             	= ["SMG_05_F"];
@@ -505,20 +508,7 @@ if(SC_useApexClasses) then
 									];
 									
 	SC_BanditUniforms			=	[
-									"U_I_C_Soldier_Para_1_F",
-									"U_I_C_Soldier_Para_2_F",
-									"U_I_C_Soldier_Para_3_F",
-									"U_I_C_Soldier_Para_4_F",
-									"U_I_C_Soldier_Para_5_F",
-									"U_I_C_Soldier_Bandit_1_F",
-									"U_I_C_Soldier_Bandit_2_F",
-									"U_I_C_Soldier_Bandit_3_F",
-									"U_I_C_Soldier_Bandit_4_F",
-									"U_I_C_Soldier_Bandit_5_F",
-									"U_I_C_Soldier_Camo_F",
-									"U_B_CTRG_Soldier_urb_1_F",
-									"U_B_CTRG_Soldier_urb_2_F",
-									"U_B_CTRG_Soldier_urb_3_F"
+									"U_C_Scientist"
 									];
 	
 	SC_VehicleClassToUse 		=   [
