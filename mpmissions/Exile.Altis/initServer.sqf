@@ -8,7 +8,15 @@ if (isServer) then {
 };
 //* * * * * * * MAPCONTENT ENDE * * * * * * * //
 
-// 771 Vehicles
+/**
+ * Created with Exile Mod 3DEN Plugin
+ * www.exilemod.com
+ */
+
+ExileRouletteChairs = [];
+ExileRouletteChairPositions = [];
+
+// 777 Vehicles
 private _vehicles = [
 ["Exile_Sign_Armory", [14583.9, 16778.5, 18.9511], [0.293241, -0.956039, 0], [0, 0, 1], true],
 ["Land_BackAlley_01_l_gap_F", [14592.9, 16784, 19.6463], [-0.70679, -0.707423, 0], [0, 0, 1], true],
@@ -780,7 +788,13 @@ private _vehicles = [
 ["Land_Billboard_F", [3014.8, 18167.2, 2.91309], [-0.977785, -0.209611, 0], [0, 0, 1], true],
 ["Exile_Sign_TraderCity", [3019.48, 18185.9, 3.04491], [-0.88102, 0.473078, 0], [0, 0, 1], true],
 ["Exile_Sign_TraderCity", [23353.7, 24205.6, 5.19683], [-0.742027, -0.67037, 0], [0, 0, 1], true],
-["Land_Billboard_F", [23381.7, 24188.5, 4.62939], [0.0212033, -0.999775, 0], [0, 0, 1], true]
+["Land_Billboard_F", [23381.7, 24188.5, 4.62939], [0.0212033, -0.999775, 0], [0, 0, 1], true],
+["Exile_Sign_SpecialOperations", [14570.7, 16759.9, 18.9511], [-0.782075, -0.623184, 0], [0, 0, 1], true],
+["Exile_Cosmetic_UAV", [14569.7, 16761.7, 19.215], [-0.995787, -0.0916922, 0.00105673], [-0.00390624, 0.0539301, 0.998537], true],
+["Exile_Cosmetic_MG", [14573.6, 16758.5, 19.2247], [-0.151913, -0.988394, 0], [0, 0, 1], true],
+["Exile_Sign_Locker", [2957.24, 18200.2, 3.828], [0, 1, 0], [0, 0, 1], true],
+["Exile_Locker", [2959.08, 18200.1, 2.77236], [0, 1, 0], [0, 0, 1], true],
+["Exile_Locker", [2960.71, 18200.1, 2.77429], [0, 1, 0], [0, 0, 1], true]
 ];
 
 {
