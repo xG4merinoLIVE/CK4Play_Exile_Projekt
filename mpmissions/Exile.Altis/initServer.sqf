@@ -3,7 +3,6 @@ setTimeMultiplier 6;
 //* * * * * * * MAPCONTENT START * * * * * * * //
 if (isServer) then {
 	[] execVM "custom\MapContent\Neu_Milicamp_Pyrgos.sqf";
-	[] execVM "custom\MapContent\Altis_Airfield_Safezone.sqf";
 	//[] execVM "custom\MapContent\MarXet_Schilder.sqf";
 };
 //* * * * * * * MAPCONTENT ENDE * * * * * * * //
