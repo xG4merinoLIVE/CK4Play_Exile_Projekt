@@ -607,7 +607,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/
 
 	//Chance to add a single InstaDoc to group loot pool per unit (Default: 0.25)
-	firstAidKitChance = 0.25;
+	firstAidKitChance = 0.50;
 	
 	//Probability to successfully pull a random item from loot pool for level 0-3 AI. Influences the rate at which loot items are added to units.
 	lootPullChance0 = 0.20;
