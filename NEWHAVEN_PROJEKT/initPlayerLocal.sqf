@@ -5,7 +5,7 @@
 
 if (!hasInterface || isServer) exitWith {};
 
-// 14 NPCs
+// 16 NPCs
 private _npcs = [
 ["Exile_Trader_AircraftCustoms", [], "Exile_Trader_AircraftCustoms", "WhiteHead_12", [[],[],[],["Exile_Uniform_ExileCustoms",[]],["V_RebreatherB",[]],[],"H_PilotHelmetFighter_B","",[],["","","","","",""]], [6202.69, 4381.87, 23.5469], [0.659881, 0.75137, 0], [0, 0, 1]],
 ["Exile_Trader_Aircraft", [], "Exile_Trader_Aircraft", "WhiteHead_13", [[],[],[],["U_I_pilotCoveralls",[]],[],[],"H_PilotHelmetHeli_O","",[],["","","","","",""]], [6200.08, 4384.33, 23.5472], [0.715012, 0.699113, 0], [0, 0, 1]],
@@ -20,7 +20,9 @@ private _npcs = [
 ["Exile_Trader_Boat", [], "Exile_Trader_Boat", "WhiteHead_03", [[],[],[],["U_OrestesBody",[]],[],[],"H_Cap_surfer","G_Tactical_Black",[],["","","","","",""]], [6174.37, 4408.18, 23.5425], [0.621861, 0.783128, 0], [0, 0, 1]],
 ["Exile_Trader_Equipment", [], "Exile_Trader_Equipment", "WhiteHead_21", [["arifle_MX_GL_Black_F","","","",[],[],""],[],[],["U_BG_Guerrilla_6_1",[]],["V_I_G_resistanceLeader_F",[]],[],"H_Watchcap_khk","G_Combat",[],["","","","","",""]], [6171.34, 4410.75, 23.541], [0.707863, 0.70635, 0], [0, 0, 1]],
 ["Exile_Trader_Food", [], "Exile_Trader_Food", "WhiteHead_05", [[],[],[],["U_C_Poloshirt_blue",[]],[],[],"H_Cap_tan","G_Combat",[],["","","","","",""]], [6168.38, 4413.74, 23.5383], [0.651207, 0.758901, 0], [0, 0, 1]],
-["Exile_Trader_RussianRoulette", [], "Exile_Trader_RussianRoulette", "WhiteHead_11", [[],[],["hgun_Pistol_Signal_F","","","",[],[],""],["U_Marshal",[]],["V_Rangemaster_belt",[]],[],"H_Cap_marshal","G_Sport_Blackyellow",[],["","","","","",""]], [6165.06, 4416.6, 23.5354], [0.795432, 0.606043, 0], [0, 0, 1]]
+["Exile_Trader_RussianRoulette", [], "Exile_Trader_RussianRoulette", "WhiteHead_11", [[],[],["hgun_Pistol_Signal_F","","","",[],[],""],["U_Marshal",[]],["V_Rangemaster_belt",[]],[],"H_Cap_marshal","G_Sport_Blackyellow",[],["","","","","",""]], [6165.06, 4416.6, 23.5354], [0.795432, 0.606043, 0], [0, 0, 1]],
+["Exile_Trader_Vehicle", [], "Exile_Trader_Vehicle", "WhiteHead_04", [[],[],[],["Exile_Uniform_ExileCustoms",[]],[],[],"H_RacingHelmet_4_F","G_Tactical_Clear",[],["","","","","",""]], [6168.85, 4425.19, 23.0627], [0.710357, -0.703841, 0], [0, 0, 1]],
+["Exile_Trader_VehicleCustoms", [], "Exile_Trader_VehicleCustoms", "GreekHead_A3_05", [[],[],[],["Exile_Uniform_ExileCustoms",[]],[],[],"","",[],["","","","","",""]], [6174.97, 4431.29, 23.0508], [0.723985, -0.689816, 0], [0, 0, 1]]
 ];
 
 {
