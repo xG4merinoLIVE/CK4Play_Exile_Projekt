@@ -44,7 +44,7 @@ for "_i" from 1 to (1 + (floor (random 3))) do
 		(_targetPosition select 1) + (cos _direction) * _distance,
 		800 
 	];
-	_pilot = _group createUnit ["I_helicrew_F", _startPosition, [], 100, "PRIVATE"];
+	_pilot = _group createUnit ["I_helicrew_F", _startPosition, [], 100, "FORM"];
 	_pilot setSkill 1;
 	[_pilot] joinSilent _group;
 	_plane = createVehicle [_planeClass, _startPosition, [], 100, "FLY"];

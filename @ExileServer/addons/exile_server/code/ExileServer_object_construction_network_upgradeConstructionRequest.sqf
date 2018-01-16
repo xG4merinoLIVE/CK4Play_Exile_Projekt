@@ -63,7 +63,7 @@ try
  	_accessCode = _object getVariable ["ExileAccessCode","000000"];
  	deleteVehicle _object;
  	format ["upgradeObject:%1:%2",_objectClass,_objectDatabaseID] call ExileServer_system_database_query_fireAndForget;
- 	_newObject = createVehicle [_objectClass,_position,[],0,"CAN_COLIDE"];
+ 	_newObject = createVehicle [_objectClass,_position,[],0,"CAN_COLLIDE"];
  	_newObject setVariable ["ExileDatabaseID",_objectDatabaseID];
  	_newObject setVariable ["ExileOwnerUID",_objectOwner];
  	_newObject setVariable ["ExileIsPersistent",true];

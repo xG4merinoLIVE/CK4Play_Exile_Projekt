@@ -43,7 +43,7 @@ File exile_client\code\ExileClient_gui_toaster_addToast.sqf, line 52
 
 
 
-FEHLER Nr4 DER IMMER IM LOOP ERSCHEINT LAUT RPT....
+FEHLER Nr4 DER IMMER IM LOOP ERSCHEINT LAUT RPT.... ( PS: Der Fehler sollte jetzt behoben sein )
 ------------------------------------------------------------------------------------------------
 
 Error in expression <n) * _distance,
