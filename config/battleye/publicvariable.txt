@@ -1,2 +1,4 @@
 //new
 7 "" !""ENIGMA_revivePlayer" =" !""ENIGMA_SpawnVehicleChkRespect" = [R :1"
+7 "AH_KICK_OFF_"
+7 "i_am_global_banned"

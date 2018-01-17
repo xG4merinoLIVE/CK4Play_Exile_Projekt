@@ -1,2 +1,4 @@
 //new
-7 "" !="true" !="vehicle this land 'LAND'" !="exileserver_system_network_dispatchincomingmessage.*" !="bis_fnc_effectkilledairdestruction.*" !="admintoolkit_network_receiverequest" !"admintoolkit_network_receiverequest" !="bis_fnc_effectkilledsecondaries" !"bis_fnc_effectkilledsecondaries" !"ExileServer_lottery_network_request"
+7 "ExileClient_system_network_dispatchIncomingMessage"
+7 "FN_infiSTAR_C"
+7 "" !="true" !="vehicle this land 'LAND'" !="fnc_adminreq \[.*\]" !="exileserver_system_network_dispatchincomingmessage.*" !="bis_fnc_effectkilledairdestruction.*" !="admintoolkit_network_receiverequest" !"admintoolkit_network_receiverequest" !="bis_fnc_effectkilledsecondaries" !"bis_fnc_effectkilledsecondaries" !"ExileServer_lottery_network_request"

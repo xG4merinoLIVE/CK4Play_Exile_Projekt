@@ -1,2 +1,6 @@
 //new
 7 "" !="exilexm8isonline" !="bis_fnc_selectrespawntemplate_respawned" !="exilecamerainuse" !="bis_accesscounter" !="isrunning" !="saved3deninventory" !="antidupe" !="antidupe\" !"antidupe" !="enigmarevivepermitted" !="bleedoutcountdownend" !="sa_tow_ropes_vehicle" !="sa_tow_ropes"!="SA_Cargo" !="SA_Tow_Ropes" !="SA_Tow_Ropes_Vehicle" !="SA_Tow_Ropes_Pick_Up_Helper" !="SA_TOWING_VEHICLE" !="SA_TOWING_CARGO"
+7 "ExilePurse"
+7 "ExileBank"
+7 "ExileMoney"
+7 "ExileScore"
