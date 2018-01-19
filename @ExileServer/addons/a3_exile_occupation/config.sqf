@@ -135,7 +135,7 @@ SC_TransportLandWaypoints   	= [
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////								
 
 
-SC_occupyLootCratesStatic   	= true;			 		   	// true if you want to have random loot crates spawn in pre-defined locations set in SC_occupyLootCratesLocations
+SC_occupyLootCratesStatic   	= false;			 		   	// true if you want to have random loot crates spawn in pre-defined locations set in SC_occupyLootCratesLocations
 SC_occupyLootCratesLocations	= [
                                     [1000,1000,0],
                                     [2000,2000,0],
