@@ -10,7 +10,7 @@ if hasInterface then
       _doStuff =
       {
          if (not isMultiplayer) then { player addAction ["Do restart warning...",{ (["RscDisplayRestartWarnings"] call BIS_fnc_rscLayer) cutRsc ["RscDisplayRestartWarnings","PLAIN",0,true] },"",-1,false,true,"alive player"] };
-         [] ExecVM "scarCODE\restartWarnings\sqf\timeLoop.sqf";
+         [] ExecVM "custom\scarCODE\restartWarnings\sqf\timeLoop.sqf";
          systemChat "[scarCODE] Started restartWarnings...";
       };
       if isMultiplayer then
