@@ -78,6 +78,7 @@ class RscTitles {
 	#include "custom\StatusBar\statusBar.hpp"
 	#include "addons\VEMFr_client\gui\RscDisplayVEMFrClient.hpp"
 	#include "addons\VEMFr_client\gui\RscDisplayBaseAttack.hpp"
+	#include "custom\scarCODE\restartWarnings\hpp\RscDisplayRestartWarnings.hpp"
 };
 
 #include "config.cpp"

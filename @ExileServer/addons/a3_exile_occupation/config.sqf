@@ -137,10 +137,12 @@ SC_TransportLandWaypoints   	= [
 
 SC_occupyLootCratesStatic   	= false;			 		   	// true if you want to have random loot crates spawn in pre-defined locations set in SC_occupyLootCratesLocations
 SC_occupyLootCratesLocations	= [
-                                    [1000,1000,0],
-                                    [2000,2000,0],
-                                    [3000,3000,0],
-                                    [4000,4000,0]
+                                    [6594.793,20389.938,0],
+                                    [14302.174,22313.355,0],
+                                    [23828.975,21780.58,0],
+                                    [8315.980,11418.022,0],
+									[15473.466,11173.676,0],
+									[10366.648,8858.388,0]
                                 ];
 SC_SpawnLootCrateGuards			= true;						// true if you want to enable AI guards
 SC_numberofLootCrates       	= 6;                    	// if SC_occupyLootCrates = true spawn this many loot crates (overrided below for Namalsk)
