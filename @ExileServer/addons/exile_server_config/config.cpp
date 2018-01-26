@@ -3917,11 +3917,11 @@ class CfgSettings
         /**
         * The server will apply random damage up to this value when spawning a vehicle.
         */
-        groundDamageChance = 45; // 20% chance for a vehicle HITPOINT to be damaged
+        groundDamageChance = 35; // 20% chance for a vehicle HITPOINT to be damaged
         waterDamageChance = 45; // 20% chance for a vehicle HITPOINT to be damaged
         airDamageChance = 45; // 20% chance for a vehicle HITPOINT to be damaged
         
-        groundMaximumDamage = 55; // vehicle HITPOINT to be damaged
+        groundMaximumDamage = 40; // vehicle HITPOINT to be damaged
         waterMaximumDamage = 10; // vehicle HITPOINT to be damaged
         airMaximumDamage = 40; // vehicle HITPOINT to be damaged
         /**
