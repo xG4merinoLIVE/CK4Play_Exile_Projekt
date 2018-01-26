@@ -703,7 +703,7 @@ class CfgExileArsenal
 	class Exile_Item_Shovel							{ quality = 2; price = 700; };
 	class Exile_Item_Screwdriver					{ quality = 1; price = 250; };
 	//class Exile_Item_FireExtinguisher				{ quality = 1; price = 650; };
-	//class Exile_Item_Hammer						{ quality = 1; price = 600; };
+	class Exile_Item_Hammer							{ quality = 1; price = 600; };
 	//class Exile_Item_OilCanister					{ quality = 1; price = 1750; };
 	//class Exile_Item_Wrench						{ quality = 1; price = 250; };
 	//class Exile_Item_SleepingMat					{ quality = 1; price = 1250; };
