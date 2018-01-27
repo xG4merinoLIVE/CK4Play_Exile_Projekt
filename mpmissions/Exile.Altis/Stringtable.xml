@@ -22,6 +22,10 @@
 				<Original>[ Required MOD ] Extended Base Mod</Original>
 				<German>[ Benötigt MOD ] Extended Base Mod</German>
 			</Key>
+			<Key ID="STR_HOPE_NATION_CAT_APEXDLC_OBJEKTE">
+				<Original>[ Required DLC ] Apex DLC Objects</Original>
+				<German>[ Benötigt DLC ] Apex DLC Objekte</German>
+			</Key>
 			<Key ID="STR_HOPE_NATION_CAT_EQUIPMENT">
 				<Original>Equipment</Original>
 				<German>Ausrüstung</German>
