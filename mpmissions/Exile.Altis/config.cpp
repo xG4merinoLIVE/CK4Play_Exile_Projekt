@@ -946,6 +946,7 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	class arifle_MX_SW_Black_F						{ quality = 2; price = 250; };
 	class arifle_MX_SW_F							{ quality = 2; price = 250; };
+	class arifle_MX_SW_khk_F						{ quality = 2; price = 250; };
 	class LMG_Mk200_F								{ quality = 2; price = 300; };
 	class LMG_Zafir_F								{ quality = 3; price = 350; };
 	class MMG_01_hex_F								{ quality = 6; price = 800; };
@@ -4611,6 +4612,7 @@ class CfgTraderCategories
 		{
 			"arifle_MX_SW_Black_F",
 			"arifle_MX_SW_F",
+			"arifle_MX_SW_khk_F",
 			"LMG_Mk200_F",
 			"LMG_Zafir_F",
 			"LMG_03_F",
