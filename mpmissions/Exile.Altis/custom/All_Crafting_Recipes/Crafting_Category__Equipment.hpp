@@ -127,3 +127,25 @@ class FillFuelCanisterEmpty: Exile_AbstractCraftingRecipe
 	};	
 	category = "$STR_HOPE_NATION_CAT_EQUIPMENT";	
 };
+
+/**********************************    CRAFTWATERCANISTER    **********************************/
+class CraftEmptyWaterCanister: Exile_AbstractCraftingRecipe
+{
+    name = "Craft Empty Water Canister";
+    pictureItem = "Exile_Item_WaterCanisterEmpty";
+	requiredInteractionModelGroup = "WorkBench";
+	requiresFire = 1;
+    returnedItems[] =
+    {
+        {1, "Exile_Item_WaterCanisterEmpty"}
+    };
+	tools[] =
+	{
+		"Exile_Item_Knife"
+	};
+    components[] =
+    {
+        {2, "Exile_Item_PlasticBottleEmpty"}
+    };	
+	category = "$STR_HOPE_NATION_CAT_EQUIPMENT";		
+};

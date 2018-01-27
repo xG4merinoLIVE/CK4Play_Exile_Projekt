@@ -355,10 +355,10 @@ class CraftFuelCanisterEmpty: Exile_AbstractCraftingRecipe
 	category = "$STR_HOPE_NATION_CAT_HARDWARE";	
 };
 
-/**********************************    WATERCANISTER    **********************************/
-class CraftWaterCanister: Exile_AbstractCraftingRecipe
+/**********************************    FILLWATERCANISTER    **********************************/
+class CraftFillEmptyWaterCanister: Exile_AbstractCraftingRecipe
 {
-    name = "Craft Dirty Water Canister";
+    name = "Fill Dirty Water Canister";
     pictureItem = "Exile_Item_WaterCanisterDirtyWater";
 	requiredInteractionModelGroup = "CleanWaterSource";
     returnedItems[] =
